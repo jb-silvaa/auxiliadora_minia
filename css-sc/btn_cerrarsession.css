@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Proxima-Nova-Bold'; /*a name to be used later*/
+    src: url('../fonts/Proxima-Nova-Bold.otf'); /*URL to font*/
+}
+.buttoncloser {
+   border-top: 1px solid #96d1f8;
+   background: #323131;
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: 'Oswald', sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.buttoncloser :hover {
+   border-top-color: #28597a;
+   background: #323131;
+   color: #ccc;
+   }
+.buttoncloser:active {
+   border-top-color: #1b435e;
+   background: #323131;
+   }
+
+.btnjefes{border-top: 1px solid #96d1f8;
+   background: #323131;
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: 'Oswald', sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+   .btnjefes:hover{
+       border-top-color: #28597a;
+   background: #323131;
+   color: #ccc;
+   }
+   .btnjefes{
+       border-top-color: #1b435e;
+   background: #323131;
+   }

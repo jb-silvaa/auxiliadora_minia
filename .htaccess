@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+php_flag display_errors on
+php_flag output_buffering on
+php_value date.timezone 'America/Santiago'
+php_value session.gc_maxlifetime 7200
+php_value max_execution_time 7200
+<ifModule mod_headers.c>
+    Header set Connection keep-alive
+</ifModule>
+php_value upload_max_filesize 30M
