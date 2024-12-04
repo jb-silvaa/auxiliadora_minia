@@ -390,15 +390,15 @@ $email->AddAddress('');
 
 //print_r($email);
 
-if (!$email->send()) {
+// if (!$email->send()) {
 
-  echo "ERROR: " . $email->ErrorInfo;
+//   echo "ERROR: " . $email->ErrorInfo;
 
-} else {
+// } else {
 
-  echo "SUCCESS";
+//   echo "SUCCESS";
 
-}
+// }
 
 
 

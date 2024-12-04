@@ -114,7 +114,7 @@ if($id_usuario != '0')
 		  $file_to_attach = '../pdf/cartas/'.$row['cuenta_corriente_pdf'];
 
 		  $email->AddAttachment( $file_to_attach , $nombre_imagen);*/
-		  $email->Send();
+		//   $email->Send();
 
 echo ("<SCRIPT LANGUAGE='JavaScript'>
 

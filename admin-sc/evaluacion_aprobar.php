@@ -204,7 +204,7 @@ require_once('../PHPMailer-master/class.phpmailer.php');
 
 	$email->AddAddress( 'cmaplanif@gmail.com' );//CORREO COPIA DE LAS PLANIFICACIONES 
 
-	$email->Send();
+	// $email->Send();
 
 /*
 

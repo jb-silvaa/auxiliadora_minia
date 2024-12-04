@@ -222,7 +222,7 @@ require_once('../PHPMailer-master/class.phpmailer.php');
 
 	}
 
-	$email->Send();
+	// $email->Send();
 
 
 
